@@ -1,0 +1,141 @@
+body{
+    background-color: #C7C0F2;
+    display: flex;
+    justify-content: center;
+    margin: 211px auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    /* align-items: center; */
+    background-color: #FFF;
+    border-radius: 22px;
+    width: 702px;
+    /* height: 409px; */
+}
+
+.tajuk{
+    background-color: #E2E0F1;
+    height: 89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
+    color: #605D71;
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 8.4px;
+}
+
+form{
+    margin: 37px 31px 28px 30px;
+}
+.nilaiA{
+    display: flex;
+    flex-direction: column;
+    /* width: 641px; */
+    height: 83px;
+    margin-bottom: 22px;
+}
+.nilaiB{
+    display: flex;
+    flex-direction: column;
+    height: 83px;
+    margin-bottom: 32px;
+}
+form label{
+    color: #605D71;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    margin: 0 562px 1px 0;
+}
+form input{
+    /* width: 641px; */
+    height: 52px;
+    background-color: #E2E0F1;
+    border-radius: 5px;
+    border: none;
+}
+form button, button{
+    width: 139px;
+    height: 35px;
+    border-radius: 20px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #605D71;
+    border: none;
+    cursor: pointer;
+    margin-top: 11px;
+}
+form button:hover, button:hover{
+    width: 139px;
+    height: 35px;
+    border-radius: 20px;
+    color: #605D71;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #E2E0F1;
+    border: none;
+    cursor: pointer;
+}
+.form-output-container{
+    /* width: 291px;
+    height: 193px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 19px 206px 30px 205px;
+}
+.form-output{
+    /* width: 291px;
+    height: 88px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.form-output-kolom-kiri{
+    /* width: 122px;
+    height: 83px; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 47px;
+}
+
+.form-output-container label{
+    color: #605D71;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    margin-right: 74px;
+}
+.kolom-output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 122px;
+    height: 52px;
+    border-radius: 5px;
+    background: #E2E0F1;
+}
+.kolom-output div{
+    color: #605D71;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
