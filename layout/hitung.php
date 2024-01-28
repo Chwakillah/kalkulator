@@ -9,7 +9,7 @@ if (isset($_POST['kirim'])) {
         $Tambah = $a + $b;
         $Kali = $a * $b;
         $Kurang = $a - $b;
-        $Bagi = ($b != 0) ? round($a / $b, 3) : 'Tidak bisa dibagi oleh 0';
+        $Bagi = ($b != 0) ? round($a / $b, 3) : 'Jangan dibagi 0';
     }
 }
 ?>
