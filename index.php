@@ -1,5 +1,5 @@
 <?php
-define("FILE_NAME", "KALKULATOR_SEDERHANA")
+define("FILE_NAME", "Halaman Input")
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +18,7 @@ define("FILE_NAME", "KALKULATOR_SEDERHANA")
 <body>
     <div class="container">
         <div class="tajuk">INPUT</div>
-        <form action="layout/hitung.php" method="POST">
+        <form action="layout/hitung.php" method="$_POST">
             <div class="nilaiA">
                 <label for="">Nilai a:</label>
                 <input type="text" name="nilaiA">

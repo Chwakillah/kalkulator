@@ -1,5 +1,5 @@
 <?php
-define("FILE_NAME", "KALKULATOR_SEDERHANA");
+define("FILE_NAME", "Halaman Output");
 $Tambah = $Kali = $Kurang = $Bagi = '';
 if (isset($_POST['kirim'])) {
     $a = $_POST['nilaiA'];
